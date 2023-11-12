@@ -1,7 +1,7 @@
 #!/bin/sh
 set -e
 
-PLUGIN_VERSION=3.14.4
+PLUGIN_VERSION=3.15.0
 
 if [ ! -d files/arm ]; then
     ./scripts/get-plugins.sh
