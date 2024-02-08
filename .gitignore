@@ -1,0 +1,8 @@
+.DS_Store
+ipks/*.ipk
+.idea/
+files/arm/
+files/aarch64/
+files/mipsel/
+files/x86_64/
+ipk-build/
