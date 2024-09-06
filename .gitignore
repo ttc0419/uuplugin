@@ -1,0 +1,7 @@
+.DS_Store
+ipks/*.ipk
+
+.idea
+ipk-build
+pkg
+src

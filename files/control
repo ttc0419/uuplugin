@@ -1,0 +1,7 @@
+Package: uuplugin
+Version: 7.9.14-1
+Architecture: x86_64
+Maintainer: William Tang
+Depends: kmod-tun
+Source: https://uu.163.com/router/
+Description: UU game booster OpenWrt plugin
