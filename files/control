@@ -1,5 +1,5 @@
 Package: uuplugin
-Version: 7.9.14-1
+Version: 8.8.12-1
 Architecture: x86_64
 Maintainer: William Tang
 Depends: kmod-tun
