@@ -1,7 +1,15 @@
 # UU OpenWrt插件
-UU加速器OpenWrt插件ipk安装包
+UU加速器OpenWrt安装包
 
 ## 安装
+OpenWrt 25.12及以后：
+```shell
+cd /tmp
+pkg_name=uuplugin-latest-$(grep '^DISTRIB_ARCH' /etc/openwrt_release | awk -F "'" '{print $2}').apk
+wget "https://github.com/ttc0419/uuplugin/releases/download/latest/$pkg_name" && apk add --allow-untrusted $pkg_name || echo "You router is not supported!"
+```
+
+OpenWrt 25.12之前：
 ```shell
 cd /tmp
 pkg_name=uuplugin_latest-1_$(grep '^DISTRIB_ARCH' /etc/openwrt_release | awk -F "'" '{print $2}').ipk
