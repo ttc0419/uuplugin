@@ -5,3 +5,4 @@ ipks/*.ipk
 ipk-build
 pkg
 src
+rfs
